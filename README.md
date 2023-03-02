@@ -24,7 +24,10 @@ Demo for M-theta Technology Solutions ( Simplilearn )
     - To check which branch the production is pointing to use the below command 
         -   `git branch`
     - If it's main branch, then switch it to master branch by using below command 
-        -  `git checkout -b master`
+        - `git branch -m main <BRANCH>`
+        - `git fetch origin`
+        - `git branch -u origin/<BRANCH> <BRANCH>`
+        - `git remote set-head origin -a`
     - Once the Master branch is created for production now, it's time for us to create a HotFix and Integration Branch for future changes
 - Step 3: 
     - As we need to add new changes, we create the feature branches according. 
