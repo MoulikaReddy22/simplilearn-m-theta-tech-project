@@ -29,7 +29,7 @@ Step 2:
 Step 3: 
   - As we need to add new changes, we create the feature branches according. 
   - Commands to create feature branches
-  -  `git checkout -b feature/feature-01`
-  -  `git checkout -b feature/feature-02`
+    -  `git checkout -b feature/feature-01`
+    -  `git checkout -b feature/feature-02`
 Step 4:
   - Now, on the final step we check on the process of merging, commiting, updating & deleting the braches according the project requirement
