@@ -20,7 +20,10 @@ Demo for M-theta Technology Solutions ( Simplilearn )
     - It also good to add Add .gitignore, by clicking on the checkbox we can create a .gitignore
     - Now, click on create repository
 - Step 2:  
-    - As repository is created, now it's time to check what Production is pointing to main or master branch
+    - As repository is created, now we need clone the project into our local machine using below command
+        - `git clone <https:URL>`
+        - `git clone https://github.com/vivekreddy0808/simplilearn-m-theta-tech-project.git`
+    - Now it's time to check what Production is pointing to main or master branch
     - To check which branch the production is pointing to use the below command 
         -   `git branch`
     - If it's main branch, then switch it to master branch by using below command 
